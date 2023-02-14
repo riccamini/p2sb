@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--tag', 'europe-west1-docker.pkg.dev/$PROJECT_ID/p2s-app-docker-repo/p2s-telegrambot', '--file', 'telegrambot/Dockerfile', './']
+images: 'europe-west1-docker.pkg.dev/$PROJECT_ID/p2s-app-docker-repo/p2s-telegrambot'

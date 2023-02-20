@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '--tag', 'europe-west1-docker.pkg.dev/$PROJECT_ID/p2s-app-docker-repo/p2s-matting-fastdeploy', '--file', 'matting-fastdeploy/Dockerfile', './']
-images: 'europe-west1-docker.pkg.dev/$PROJECT_ID/p2s-app-docker-repo/p2s-matting-fastdeploy'
+  args: ['build', '--tag', 'europe-west1-docker.pkg.dev/$PROJECT_ID/p2s-app-docker-repo/p2s-matting', '--file', 'matting/Dockerfile', './']
+images: 'europe-west1-docker.pkg.dev/$PROJECT_ID/p2s-app-docker-repo/p2s-matting'

@@ -6,7 +6,7 @@ This project is intended to be a playground for GCP services. The bot task is si
 
 Try it out: https://t.me/pic_to_stickers_bot
 
-For additional information check-out this medium article: https://medium.com/@iacomini.riccardo
+For additional information check-out my [medium article](https://medium.com/@iacomini.riccardo/build-a-serverless-telegram-bot-on-gcp-with-cloud-run-8d4ec9080b0f)
 
 ## General architecture
 This project is meant to be a playground for GCP services. The app is designed as a streaming application made of individual specialized components. Cloud Pub/Sub, google's serverless messaging service, connects the individual components, all python applications packaged into containers and running on Cloud Run.
